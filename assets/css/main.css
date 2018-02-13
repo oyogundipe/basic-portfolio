@@ -1,0 +1,28 @@
+.nav {
+    display: flex;  
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+   }
+   .button {
+     background-color: rgb(213, 164, 214);
+     padding: 6px 10px 6px 10px;
+     border: 1px solid rgb(97, 19, 73);
+   }
+   .content {
+     display: flex;
+     justify-content: center;
+     
+   }
+   
+   .wrapper {
+     background-color: white;
+     margin: 0  auto;
+     width: 65%;
+     border: 1px solid rgb(97, 19, 73);
+     
+   }
+   
+   body {
+     background-color: rgb(255, 212, 237);
+   }
