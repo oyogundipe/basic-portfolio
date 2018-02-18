@@ -1,28 +1,83 @@
-.nav {
-    display: flex;  
-    justify-content: space-around;
+body { 
+    background-image: url(../images/hypnotize.png);
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 15px;
+    }
+    
+.box {
+        width: 150px;
+        padding: 10px;
+        border: 1px solid gray;
+        background-color: #CBC6CF;
+        position: absolute;
+        margin: 0; 
+      }
+
+h1 {
+        font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+        font-size: 18px;
+        font-style: bold;
+        font-variant: normal;
+        line-height: 20px;
+    }
+
+a:link {
+        color: #644367;
+    }
+a:visited {
+        color: #3F1445;
+    }
+ a:hover {
+        color: #866D89;
+    }
+a:active {
+        color: #644367;
+    }
+
+.header {
+    background-color: #C0C0C0;
+    width: 100%;
+    padding: 22px;
+    text-align: left;
+    letter-spacing: 3px;
+    }
+
+.container {
+    display: flex;
     flex-direction: row;
-    align-items: flex-end;
-   }
-   .button {
-     background-color: rgb(213, 164, 214);
-     padding: 6px 10px 6px 10px;
-     border: 1px solid rgb(97, 19, 73);
-   }
-   .content {
-     display: flex;
-     justify-content: center;
-     
-   }
+    justify-content: space-between;
+    }
+
+.sidebar, .content {
+     margin: 20px 0 0 0;
+     background-color: #FFF;
+     border: 1px dotted #C0C0C0;
+    }
+
+.content {
+    width: 650px;
+    float: right;
+
+}
+.sidebar {
+     width: 270px;
+     margin-left: auto;
+     align-content: center;
+    }
    
-   .wrapper {
-     background-color: white;
-     margin: 0  auto;
-     width: 65%;
-     border: 1px solid rgb(97, 19, 73);
-     
-   }
-   
-   body {
-     background-color: rgb(255, 212, 237);
-   }
+.footer {
+    width: 100%;
+    padding: 22px;
+    bottom: 0;
+    position: fixed;
+    text-align: left;
+    font-size: 10px;
+    letter-spacing: 1px;
+    background-color: #c0c0c0;
+    }
